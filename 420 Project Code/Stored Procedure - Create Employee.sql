@@ -1,16 +1,16 @@
 --This is a stored procedure for entering a new Employee into the database. 
 --This makes entering new Employees much more efficient and easier.
 
-CREATE PROC EmployeeCreate	  	  --This creates the procedure and names it "EmployeeCreate"
-@EMP_ID varchar(50),			        --This tells the proceudre to accept the EMP_ID attribute 
-@EMP_FNAME varchar(50),			      --This tells the proceudre to accept the EMP_FNAME attribute
-@EMP_LNAME varchar(50),		      	--This tells the proceudre to accept the EMP_LNAME attribute
-@EMP_DOB date,					          --This tells the proceudre to accept the EMP_DOB attribute
-@EMP_EMAIL varchar(50),		      	--This tells the proceudre to accept the EMP_EMAIL attribute
-@EMP_PASS varchar(50),		      	--This tells the proceudre to accept the EMP_PASS attribute
-@EMP_PHONE varchar(50),		      	--This tells the proceudre to accept the EMP_PHONE attribute
-@EMP_ADDRESS varchar(50),   	  	--This tells the proceudre to accept the EMP_ADDRESS attribute
-@LOG_ID varchar(50)			        	--This tells the proceudre to accept the LOG_ID attribute
+CREATE PROC EmployeeCreate      --This creates the procedure and names it "EmployeeCreate"
+@EMP_ID varchar(50),            --This tells the proceudre to accept the EMP_ID attribute 
+@EMP_FNAME varchar(50),         --This tells the proceudre to accept the EMP_FNAME attribute
+@EMP_LNAME varchar(50),         --This tells the proceudre to accept the EMP_LNAME attribute
+@EMP_DOB date,                  --This tells the proceudre to accept the EMP_DOB attribute
+@EMP_EMAIL varchar(50),         --This tells the proceudre to accept the EMP_EMAIL attribute
+@EMP_PASS varchar(50),          --This tells the proceudre to accept the EMP_PASS attribute
+@EMP_PHONE varchar(50),         --This tells the proceudre to accept the EMP_PHONE attribute
+@EMP_ADDRESS varchar(50),       --This tells the proceudre to accept the EMP_ADDRESS attribute
+@LOG_ID varchar(50);            --This tells the proceudre to accept the LOG_ID attribute
 
 
 AS 
