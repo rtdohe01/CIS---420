@@ -5,7 +5,7 @@ CREATE PROC MemberCreate		--This creates the procedure and names it "MemberCreat
 @MEM_ID varchar(50),			--This tells the proceudre to accept the MEM_ID attribute
 @MEM_FNAME varchar(50),			--This tells the proceudre to accept the MEM_FNAME attribute
 @MEM_LNAME varchar(50),			--This tells the proceudre to accept the MEM_LNAME attribute
-@MEM_DOB date,					--This tells the proceudre to accept the MEM_DOB attribute
+@MEM_DOB date,					    --This tells the proceudre to accept the MEM_DOB attribute
 @MEM_EMAIL varchar(50),			--This tells the proceudre to accept the MEM_EMAIL attribute
 @MEM_PASS varchar(50),			--This tells the proceudre to accept the MEM_PASS attribute
 @MEM_PHONE varchar(50),			--This tells the proceudre to accept the MEM_PHONE attribute
