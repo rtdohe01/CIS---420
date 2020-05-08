@@ -42,8 +42,8 @@ END
 --This is executing the ManagerCreate procedure
 
 
-INSERT INTO Log_In(LOG_ID, LOG_PASS)		--This tell the prcedure to enter data in the LOG_IN and LOG_PASS columns
-VALUES('TomDavis23', 'p@$$w0rd');			  --This tells the procedure what the new Members Login ID and Password will be
+INSERT INTO Log_In(LOG_ID, LOG_PASS)      --This tell the prcedure to enter data in the LOG_IN and LOG_PASS columns
+VALUES('TomDavis23', 'p@$$w0rd');         --This tells the procedure what the new Members Login ID and Password will be
 
 EXEC ManagerCreate
 @MANAGER_ID = 'TomDavis23',                   --Manager's unique ID
