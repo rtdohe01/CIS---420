@@ -60,4 +60,4 @@ EXEC ManagerUpdate
 @MANAGER_PASS = 'password0000',                   --Manager's password - can remain the same or change
 @MANAGER_PHONE = '5023889910',                    --Manager's phone number - can remain the same or change
 @MANAGER_ADDRESS = 'dog creek louisville ky',     --Manager's home address - can remain the same or change
-@LOG_ID = 'RonWillis89'                             --Manager's log ID - can remain the same or change
+@LOG_ID = 'RonWillis89'                           --Manager's log ID - can remain the same or change
