@@ -46,12 +46,12 @@ VALUES('joeyrobbinson12', 'password');		--This tells the procedure what the new 
 
 
 EXEC EmployeeCreate
-@EMP_ID ='joeyrobbinson12',							--Employee's unique ID
-@EMP_FNAME ='joey',									--Employee first name
-@EMP_LNAME ='robbinson',							--Employee's last name
-@EMP_DOB ='02-10-2000',								--Employee's date of birth
+@EMP_ID ='joeyrobbinson12',							      --Employee's unique ID
+@EMP_FNAME ='joey',								    	      --Employee first name
+@EMP_LNAME ='robbinson',							        --Employee's last name
+@EMP_DOB ='02-10-2000',							        	--Employee's date of birth
 @EMP_EMAIL ='joeyrobbinson12@gmail.com',			--Employee's email
-@EMP_PASS ='password',								--Employee's password
-@EMP_PHONE ='5023662240',							--Employee's phone number
+@EMP_PASS ='password',							        	--Employee's password
+@EMP_PHONE ='5023662240',						        	--Employee's phone number
 @EMP_ADDRESS ='wild run louisville ky',				--Employee's home address
-@LOG_ID = 'joeyrobbinson12';						--Employee's log ID
+@LOG_ID = 'joeyrobbinson12';					      	--Employee's log ID
