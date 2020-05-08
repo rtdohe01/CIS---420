@@ -44,7 +44,7 @@ create table Manager(
 
 --This creates the Locker table 
 create table Locker(
-	LOCKER_NUM int primary key not null,									--This creats the LOCKER_NUM cloumn, desginates LOCKER_NUM as a int data type, a primary key, and must contain data
+	LOCKER_NUM int primary key not null,						--This creats the LOCKER_NUM cloumn, desginates LOCKER_NUM as a int data type, a primary key, and must contain data
 	EMP_ID varchar(50) foreign key references Employee(EMP_ID) not null		--This connects the foreign key - EMP_ID - to the Locker table, desginates it as a varchar data type and must contain data
 );
 
@@ -68,12 +68,12 @@ create table Member(
 
 --This creates the Machine table 
 create table Machine(
-	MACHINE_UOFL_NUM int primary key not null,						--This creats the MACHINE_UOFL_NUM cloumn, desginates MACHINE_UOFL_NUM as a int data type, a primary key, and must contain data
-	MACHINE_TYPE varchar(50) not null,								--This creates the MACHINE_TYPE cloumn and desginates MACHINE_TYPE as a varchar data type, and must contain data
-	MACHINE_SERIAL_NUM varchar(50) not null,						--This creates the MACHINE_SERIAL_NUM cloumn and desginates MACHINE_SERIAL_NUM as a varchar data type, and must contain data
-	MACHINE_PURCHASE_DATE date not null,							--This creates the MACHINE_PURCHASE_DATE cloumn and desginates MACHINE_PURCHASE_DATE as a date data type, and must contain data
-	MACHINE_USER_TIME time not null,								--This creates the MACHINE_USER_TIME cloumn and desginates MACHINE_USER_TIME as a time data type, and must contain data
-	MACHINE_USER_DISTANCE int not null								--This creates the MACHINE_USER_DISTANCE cloumn and desginates MACHINE_USER_DISTANCE as a int data type, and must contain data
+	MACHINE_UOFL_NUM int primary key not null,				--This creats the MACHINE_UOFL_NUM cloumn, desginates MACHINE_UOFL_NUM as a int data type, a primary key, and must contain data
+	MACHINE_TYPE varchar(50) not null,					--This creates the MACHINE_TYPE cloumn and desginates MACHINE_TYPE as a varchar data type, and must contain data
+	MACHINE_SERIAL_NUM varchar(50) not null,				--This creates the MACHINE_SERIAL_NUM cloumn and desginates MACHINE_SERIAL_NUM as a varchar data type, and must contain data
+	MACHINE_PURCHASE_DATE date not null,					--This creates the MACHINE_PURCHASE_DATE cloumn and desginates MACHINE_PURCHASE_DATE as a date data type, and must contain data
+	MACHINE_USER_TIME time not null,					--This creates the MACHINE_USER_TIME cloumn and desginates MACHINE_USER_TIME as a time data type, and must contain data
+	MACHINE_USER_DISTANCE int not null					--This creates the MACHINE_USER_DISTANCE cloumn and desginates MACHINE_USER_DISTANCE as a int data type, and must contain data
 );
 
 
