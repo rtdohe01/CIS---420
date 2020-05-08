@@ -13,20 +13,20 @@ INSERT INTO Log_In([LOG_ID], [LOG_PASS])
 --i.e.- insert  'JamesHaight45' in the LOG_ID cloumn, insert 'p@$$word2031' in the LOG_PASS column 
 
 VALUES ('JamesHaight45','p@$$word2031'),
-	   ('NelsonMoreno20','p@$$word9483'),
-	   ('MaryBrown88','p@$$word1265'),
-	   ('SueGill09','p@$$word3691'),
-	   ('BeverlyBib92','p@$$word1029'),
-	   ('JamesHolder85','p@$$word2042'),
-	   ('EricWitherspoon67','p@$$word9090'),
-	   ('DebMitchell01','p@$$word9481'),
-	   ('KatObrein48','p@$$word2434'),
-	   ('TonyContreras79','p@$$word0079'),
-	   ('PamHoule93','p@$$word1091'),
-	   ('AdamChamber82','p@$$word3407'),
-	   ('HelenFaller99','p@$$word7721'),
-	   ('CharlesTovar55','p@$$word0099'),
-	   ('JaredRuth72','p@$$word1038');
+       ('NelsonMoreno20','p@$$word9483'),
+       ('MaryBrown88','p@$$word1265'),
+       ('SueGill09','p@$$word3691'),
+       ('BeverlyBib92','p@$$word1029'),
+       ('JamesHolder85','p@$$word2042'),
+       ('EricWitherspoon67','p@$$word9090'),
+       ('DebMitchell01','p@$$word9481'),
+       ('KatObrein48','p@$$word2434'), 
+       ('TonyContreras79','p@$$word0079'),
+       ('PamHoule93','p@$$word1091'),
+       ('AdamChamber82','p@$$word3407'),
+       ('HelenFaller99','p@$$word7721'),
+       ('CharlesTovar55','p@$$word0099'),
+       ('JaredRuth72','p@$$word1038');
 
 
 
