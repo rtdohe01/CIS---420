@@ -10,7 +10,7 @@ CREATE PROC EmployeeCreate      --This creates the procedure and names it "Emplo
 @EMP_PASS varchar(50),          --This tells the proceudre to accept the EMP_PASS attribute
 @EMP_PHONE varchar(50),         --This tells the proceudre to accept the EMP_PHONE attribute
 @EMP_ADDRESS varchar(50),       --This tells the proceudre to accept the EMP_ADDRESS attribute
-@LOG_ID varchar(50);            --This tells the proceudre to accept the LOG_ID attribute
+@LOG_ID varchar(50)           --This tells the proceudre to accept the LOG_ID attribute
 
 
 AS 
